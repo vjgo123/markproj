@@ -1,0 +1,86 @@
+/*
+
+Project Mark
+Author: Jan Vincent Go
+
+*/
+
+/* Heading */
+.nav-bar{
+	background-color: #2854a1;
+	min-width:100%;
+	min-height: 12%;
+	top: 0;
+	left: 0;
+	right: 0;
+	list-style: none;
+	position: fixed;
+	z-index: 555;
+
+}
+
+.nav-tabs{
+	border: none;
+	float: right;
+	
+}
+
+.nav-bar>li{
+	padding: 10px;
+	float: right;
+}
+
+.navbar-brand{
+	margin-left: 5%;
+}
+
+/* Jumbotron Image*/
+
+
+.bg-container{
+	background-image: url('../bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-width: 100%;
+	height: 500px;
+	background-position: 0px -100px;
+	z-index: 0;
+	opacity: 0.8;
+}
+
+.search-div{
+	position: absolute;
+	margin: 0 auto;
+	float: none;
+	top: 250px;
+	width: 100%;
+	height: 100px;
+	z-index: 1;
+}
+
+.search-div > h1, h2, h3, h4, h5, h6{
+	text-align: center;
+	color: black;
+}
+
+.search-div > .col-md-2{
+	margin-top: 25px;
+	left: 250px;
+}
+
+
+.content-container{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.content-header{
+	margin: 0 auto;
+	float:none;
+	text-align: center;
+	
+}
+
+
+
